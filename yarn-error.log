@@ -1,0 +1,36 @@
+Arguments: 
+  C:\nodejs\node.exe C:\nodejs\node_modules\yarn\bin\yarn.js add expredd
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;c:\PHP7;C:\composer;C:\wamp64\bin\php\php7.4.0\;C:\Users\traineemtm\composer;C:\Users\traineemtm\AppData\Roaming\Composer\vendor\bin;C:\Users\traineemtm\AppData\Local\Programs\Git\cmd;C:\nodejs\;C:\mongodb-win32-x86_64-windows-4.4.2\bin\;C:\rubygems-3.2.3\;C:\rubyinstaller-3.0.0-1-x64\bin\;C:\aria2c\;C:\Users\traineemtm\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\traineemtm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files;C:\Windows\System32\;C:\mongodb-win32-x86_64-2008plus-3.2.21\bin\;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  13.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expredd: Not found
+      at Request.params.callback [as _callback] (C:\nodejs\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\nodejs\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\nodejs\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\nodejs\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
